@@ -74,7 +74,7 @@ git -C work/ppc-threads submodule update --init --recursive
 Copy-Item -LiteralPath tasks/kamalagin_a_binary_image_convex_hull -Destination work/ppc-threads/tasks -Recurse -Force
 ```
 
-Команды рассчитаны на первый запуск, когда указанных рабочих копий ещё нет. Ревизии и upstream-репозитории перечислены в [SOURCES.md](SOURCES.md). Доступность удалённых ревизий при подготовке этой публикации не проверялась.
+Команды рассчитаны на первый запуск, когда указанных рабочих копий ещё нет. Ревизии и upstream-репозитории перечислены в [SOURCES.md](SOURCES.md). Наличие обеих закреплённых ревизий в публичных авторских forks подтверждено 8 ноября 2026 года: каждый commit успешно получен через `git fetch --depth 1`. Сборка и тесты при этой проверке не запускались.
 
 ### Сборка
 
